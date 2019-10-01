@@ -25,8 +25,8 @@
 	<main>
         <img src="https://cdn.shopify.com/s/files/1/2074/9385/articles/Screen_Shot_2019-03-13_at_12.25.09_AM_1400x.progressive.png.jpg?v=1552455364" alt="makeup">
         <img src="https://s3-eu-west-1.amazonaws.com/logs.omnibuilder/256fa0e5-2ad2-4fa0-a46d-34782a292565/8924d75e-2822-4004-8838-ea74b89501ea.jpeg" alt="model">
-        <img src="img/img1.jpg" alt="makeup">
-        <img src="img/img2.jpg" alt="model">
+        <img src="main/img/img1.jpg" alt="makeup">
+        <img src="main/img/img2.jpg" alt="model">
 	</main>
 
 	<footer>
