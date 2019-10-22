@@ -8,96 +8,77 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
 </head>
 
-<div id="main">
 <body>
 	<header>
 		<div class="header">	
 				<p class="p-header">Free shipping over $50</p>
-		</div>
+		</div> 
 
 		<div class="head-2">
-				<div class="search-input">
-					<div id="mySidenav" class="sidenav">
-						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-						<a href="#">Shop</a>
-						<a href="#">Makeup</a>
-						<a href="#">Skin Care</a>
-						<a href="#">Hair</a>
-						<a href="#">Fragance</a>
-						<a href="#">Sale</a>
-					</div>
+			<div class="search-input">
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="#">Shop</a>
+					<a href="#">Makeup</a>
+					<a href="#">Skin Care</a>
+					<a href="#">Hair</a>
+					<a href="#">Fragance</a>
+					<a href="#">Sale</a>
+				</div>
 				
-					<script>
-						function openNav() {
-							  document.getElementById("mySidenav").style.width = "250px";
-						}
-								
-						function closeNav() {
-							  document.getElementById("mySidenav").style.width = "0";
-						}
-					</script>
+				<script>
+					function openNav() {
+						document.getElementById("mySidenav").style.width = "250px";
+					}		
+					function closeNav() {
+						document.getElementById("mySidenav").style.width = "0";
+					}
+				</script>
 
-					<span onclick="openNav()"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
+				<span onclick="openNav()"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
 
-					<label><input class="search-header" type="text" id="site-search" name="search" aria-label="Search through site content" placeholder="Search"></label>
-				</div>
+				<label><input class="search-header" type="text" id="site-search" name="search" aria-label="Search through site content" placeholder="Search"></label>
+			</div>
 
-				<img class="logo" src="https://vectr.com/tmp/a1Sb21pAn/d6sstAfaH3.svg?width=650&height=100&select=d6sstAfaH3page0" alt="Prismatic"/>
+			<img class="logo" src="https://vectr.com/tmp/a1Sb21pAn/d6sstAfaH3.svg?width=650&height=100&select=d6sstAfaH3page0" alt="Prismatic"/>
 
-				<div class="other-icons">
-						<i class="fa fa-shopping-cart fa-lg" aria-hidden="true"><a href="#"></a></i>
-						<i class="fa fa-heart fa-lg"></i>
-						<i class="fa fa-user fa-lg"></i>
-				</div>
+			<div class="other-icons">
+				<i class="fa fa-shopping-cart fa-lg" aria-hidden="true"><a href="#"></a></i>
+				<i class="fa fa-heart fa-lg"></i>
+				<i class="fa fa-user fa-lg"></i>
+			</div>
 		</div>
 		  
 	</header>
 
 	<main>
-			<div class="banner">
-					<ul class="cycle-slideshow banner"  data-cycle-slides="> li">
-						<li class="banner-item">
-							<img src="img/img3.jpg" alt="makeup" class="banner-image">
-						</li>
-						<li class="banner-item">
-							<img src="img/img4.jpg" alt="makeup" class="banner-image">		
-						</li>
-						<li class="banner-item">
-							<img src="img/img1.jpg" alt="makeup" class="banner-image">
-						</li>
-						<li class="banner-item">
-							<img src="img/img2.jpg" alt="makeup" class="banner-image">
-						</li>
-						 <div class="cycle-pager"></div>
-					</ul>
-					
-					<script src="js/jquery-3.2.1.min.js"></script>
-					<script src="js/jquery.cycle2.min.js"></script>
-			</div>	
-	   
-	<div class="event">
-		<h2>Workshop Event</h2>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti cupiditate enim facilis laudantium corrupti odit exercitationem iusto dolorem aperiam rerum ea atque officiis accusamus, unde quaerat sint dignissimos adipisci!</p>
-		<label for="name"><input type="text" id=name placeholder="Name"></label><br>
-		<label for="last-name"><input type="text" id=last-name placeholder="Last Name"></label><br>
-		<select name="Date" id="Date">
-			<option value="Saturday October 19, 2019">Saturday October 19, 2019</option>
-			<option value="Sunday October 20, 2019">Sunday October 20, 2019</option>
-			<option value="Saturday October 26, 2019">Saturday October 26, 2019</option>
-			<option value="Sunday October 27, 2019">Sunday October 27, 2019</option>
-		</select><br>
-		<select name="Hour" id="Hour">
-				<option value="10:00am">10:00am</option>
-				<option value="10:00am">11:00am</option>
-				<option value="10:00am">12:00am</option>
-		</select> <br>
+		<div class="images">
+			<img src="img/img1.jpg" alt="">
+			<img src="img/img2.jpg" alt="">
+			<img src="img/img3.jpg" alt="">
+			<img src="img/img4.jpg" alt="">
+		</div>
 
-		<input type="submit">
-		
-	</div>
+		<form action="">
+			<h2>Workshop Event</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti cupiditate enim facilis laudantium corrupti odit exercitationem iusto dolorem aperiam rerum ea atque officiis accusamus, unde quaerat sint dignissimos adipisci!</p>
+			<label for="name"><input type="text" id=name placeholder="Name"></label><br>
+			<label for="last-name"><input type="text" id=last-name placeholder="Last Name"></label><br>
+			<select name="Date" id="Date">
+				<option value="Saturday October 19, 2019">Saturday October 19, 2019</option>
+				<option value="Sunday October 20, 2019">Sunday October 20, 2019</option>
+				<option value="Saturday October 26, 2019">Saturday October 26, 2019</option>
+				<option value="Sunday October 27, 2019">Sunday October 27, 2019</option>
+			</select><br>
+			<select name="Hour" id="Hour">
+				<option value="10:00am">10:00am</option>
+				<option value="11:00am">11:00am</option>
+				<option value="12:00pm">12:00pm</option>
+			</select> <br>
+			<input type="submit">
+		</form>
 
 	</main>
 
