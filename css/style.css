@@ -1,6 +1,35 @@
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 767px)
+	and (orientation: portrait){
+		html{
+			font-family:'Times New Roman', Times, serif;
+			color: brown;
+		}	
+	}
+
+@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px)
+	and (orientation: portrait){
+		html{
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			color:saddlebrown;
+		}
+	}
+
+@media only screen
+	and (min-device-width: 1025px)
+	and (max-device-width: 1280px)
+	and (orientation: portrait){
+		html{
+			font-family: Arial, Helvetica, sans-serif;
+			color: black;
+		}
+	}
 
 html, body{
-	font-family: Arial, Helvetica, sans-serif;
+	
 	width: 100%;
 	margin: auto;
 }
@@ -73,12 +102,6 @@ html, body{
 		font-size: 36px;
 		margin-left: 50px;
   	}
-  
-  
-@media screen and (max-height: 450px){
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-}
 
 .head-2{
 	background-color: white;
@@ -169,3 +192,4 @@ h4{
 	margin-top:-30px;
 }
 
+	
